@@ -82,8 +82,6 @@ gem install wpscan
 #### Obtain an API Token from WPVulnDB
 Create an account and copy the API token from the users page. This token can then be supplied to wpscan using the `--api-token` parameter
 
-**API Token**: 0qSWF2tHdeezcVNms7KTJRci1xA4KIi7GznJrl7LscI
-
 #### Normal enumeration scan against a WordPress website with `WPScan`
 ```Shell
 wpscan --url http://blog.inlanefreight.local --enumerate --api-token dEOFB<SNIP>
